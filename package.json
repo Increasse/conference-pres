@@ -1,12 +1,12 @@
 {
   "homepage": "https://increasse.github.io/conference-pres",
-  "name": "conference",
+  "name": "conference-pres",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "dev": "vite",
     "lint": "eslint .",
